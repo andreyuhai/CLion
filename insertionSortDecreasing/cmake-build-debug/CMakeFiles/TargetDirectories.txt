@@ -1,0 +1,3 @@
+/home/pafadorama/CLionProjects/insertionSortDecreasing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pafadorama/CLionProjects/insertionSortDecreasing/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pafadorama/CLionProjects/insertionSortDecreasing/cmake-build-debug/CMakeFiles/insertionSortDecreasing.dir
