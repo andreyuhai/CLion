@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.c" "/home/pafadorama/CLionProjects/algorithmHomework/cmake-build-debug/CMakeFiles/algorithmHomework.dir/guessingGame.c.o"
   "/home/pafadorama/CLionProjects/algorithmHomework/main.c" "/home/pafadorama/CLionProjects/algorithmHomework/cmake-build-debug/CMakeFiles/algorithmHomework.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algorithmHomework.dir/main.c.o"
+  "CMakeFiles/algorithmHomework.dir/guessingGame.c.o"
   "algorithmHomework.pdb"
   "algorithmHomework"
 )

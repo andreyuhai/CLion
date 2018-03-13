@@ -123,6 +123,33 @@ algorithmHomework/fast:
 	$(MAKE) -f CMakeFiles/algorithmHomework.dir/build.make CMakeFiles/algorithmHomework.dir/build
 .PHONY : algorithmHomework/fast
 
+guessingGame.o: guessingGame.c.o
+
+.PHONY : guessingGame.o
+
+# target to build an object file
+guessingGame.c.o:
+	$(MAKE) -f CMakeFiles/algorithmHomework.dir/build.make CMakeFiles/algorithmHomework.dir/guessingGame.c.o
+.PHONY : guessingGame.c.o
+
+guessingGame.i: guessingGame.c.i
+
+.PHONY : guessingGame.i
+
+# target to preprocess a source file
+guessingGame.c.i:
+	$(MAKE) -f CMakeFiles/algorithmHomework.dir/build.make CMakeFiles/algorithmHomework.dir/guessingGame.c.i
+.PHONY : guessingGame.c.i
+
+guessingGame.s: guessingGame.c.s
+
+.PHONY : guessingGame.s
+
+# target to generate assembly for a file
+guessingGame.c.s:
+	$(MAKE) -f CMakeFiles/algorithmHomework.dir/build.make CMakeFiles/algorithmHomework.dir/guessingGame.c.s
+.PHONY : guessingGame.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithmHomework"
+	@echo "... guessingGame.o"
+	@echo "... guessingGame.i"
+	@echo "... guessingGame.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/algorithmHomework.dir/main.c.o  -o algorithmHomework 
+/usr/bin/cc -g   CMakeFiles/algorithmHomework.dir/main.c.o CMakeFiles/algorithmHomework.dir/guessingGame.c.o  -o algorithmHomework 

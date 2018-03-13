@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/pafadorama/CLionProjects/algorithmHomework/main.c
+/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.c
+guessingGame.h
+/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.h
 stdio.h
 -
 stdlib.h
 -
-time.h
--
 memory.h
 -
+time.h
+-
+
+/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.h
+stdio.h
+-
+
+/home/pafadorama/CLionProjects/algorithmHomework/main.c
+guessingGame.h
+/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.h
 

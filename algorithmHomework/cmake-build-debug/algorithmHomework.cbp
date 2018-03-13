@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.c">
+			<Option target="algorithmHomework"/>
+		</Unit>
+		<Unit filename="/home/pafadorama/CLionProjects/algorithmHomework/guessingGame.h">
+			<Option target="algorithmHomework"/>
+		</Unit>
 		<Unit filename="/home/pafadorama/CLionProjects/algorithmHomework/main.c">
 			<Option target="algorithmHomework"/>
 		</Unit>
