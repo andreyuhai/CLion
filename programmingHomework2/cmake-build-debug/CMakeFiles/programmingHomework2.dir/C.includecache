@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pafadorama/CLionProjects/programmingHomework2/main.c
+stdio.h
+-
+odev.h
+/home/pafadorama/CLionProjects/programmingHomework2/odev.h
+math.h
+-
+
+/home/pafadorama/CLionProjects/programmingHomework2/odev.c
+odev.h
+/home/pafadorama/CLionProjects/programmingHomework2/odev.h
+math.h
+-
+stdio.h
+-
+memory.h
+-
+stdlib.h
+-
+
+/home/pafadorama/CLionProjects/programmingHomework2/odev.h
+

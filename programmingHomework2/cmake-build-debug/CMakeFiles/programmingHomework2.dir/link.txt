@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/programmingHomework2.dir/main.c.o CMakeFiles/programmingHomework2.dir/odev.c.o  -o programmingHomework2 -lm 
