@@ -1,7 +1,6 @@
 #include "odev.h"
 #include <math.h>
 #include <stdio.h>
-#include <memory.h>
 #include <stdlib.h>
 
 double alan(double arr[][2], int size){
@@ -53,26 +52,28 @@ double standartSapma(int arr[], int size){
     return sqrt(stdDeviation/(size-1));
 }
 
-void fillMatrix(int(*matrix)[3][3]){
+void fillMatrix(int matrix[3][3]){
     for(int i=0; i<3; i++){
         for(int j=0; j<3; j++){
-            (*matrix)[i][j] = getInput();
+            matrix[i][j] = getInput();
         }
     }
 }
 
-void matrisCarpim(int (*mDizi)[3][3]){
+void matrisCarpim(int mDizi[3][3]){
     int m1[3][3] = {0};
     int m2[3][3] = {0};
-    fillMatrix(&m1);
-    fillMatrix(&m2);
+    printf("-- For the first matrix --\n");
+    fillMatrix(m1);
+    printf("-- For the second matrix --\n");
+    fillMatrix(m2);
     for(int i=0; i<3; i++){
         for(int j=0; j<3; j++){
-
+            for(int k=0; k<3; k++){
+                mDizi[i][j] += m1[i][k]*m2[k][j];
+            }
         }
     }
-
-
 }
 
 

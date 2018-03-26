@@ -22,7 +22,7 @@ int main() {
 
     }; //Alanı 21.40435 olmalı
 
-    printf("The area = %f\n",alan(triangle,4)); //Alan hesabında ilk ve son koordinatlar aynı olmalı
+    printf("The area = %f\n",alan(triangle, 4)); //Alan hesabında ilk ve son koordinatlar aynı olmalı
 
     //int* arr = getArr(7);
     /* Örnek ;
@@ -33,7 +33,14 @@ int main() {
      */
     //printf("standard deviation = %f\n",standartSapma(arr,7));
 
-    int (*m1)[3][3] = {0};
+
+    int m1[3][3] = {0};
     matrisCarpim(m1);
+    for(int i = 0; i<3; i++){
+        for(int j=0; j<3; j++){
+            printf("%d ",m1[i][j]);
+        }
+        printf("\n");
+    }
     return 0;
 }
