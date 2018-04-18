@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/programmingHomework3.dir/main.c.o CMakeFiles/programmingHomework3.dir/homeworkThree.c.o  -o programmingHomework3 

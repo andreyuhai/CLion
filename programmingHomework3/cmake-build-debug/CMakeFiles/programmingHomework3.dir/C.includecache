@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pafadorama/CLionProjects/programmingHomework3/homeworkThree.c
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+homeworkThree.h
+/home/pafadorama/CLionProjects/programmingHomework3/homeworkThree.h
+
+/home/pafadorama/CLionProjects/programmingHomework3/homeworkThree.h
+
+/home/pafadorama/CLionProjects/programmingHomework3/main.c
+stdio.h
+-
+string.h
+-
+homeworkThree.h
+/home/pafadorama/CLionProjects/programmingHomework3/homeworkThree.h
+
