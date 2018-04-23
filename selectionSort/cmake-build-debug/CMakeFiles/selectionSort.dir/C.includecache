@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pafadorama/CLionProjects/selectionSort/main.c
+stdio.h
+-
+memory.h
+-
+sort.h
+/home/pafadorama/CLionProjects/selectionSort/sort.h
+stdlib.h
+-
+
+/home/pafadorama/CLionProjects/selectionSort/sort.c
+stdlib.h
+-
+memory.h
+-
+sort.h
+/home/pafadorama/CLionProjects/selectionSort/sort.h
+stdio.h
+-
+
+/home/pafadorama/CLionProjects/selectionSort/sort.h
+
