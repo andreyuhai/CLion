@@ -93,16 +93,31 @@ int* heapSort(int size, int* to_beSorted){
 
     int* sortedArr = malloc(size*sizeof(int));
     memcpy(sortedArr,to_beSorted,size*(sizeof(int)));
-
+    int sizeCp = size;
+    int gapCount = 0;
     int temp;
-    for(;size > 0; size--){
+
+    for(;size > 1; size--){
         maxHeapify((size/2)-1,size,sortedArr);
 
         temp = sortedArr[size-1];
         sortedArr[size-1] = sortedArr[0];
         sortedArr[0] = temp;
-    }
 
+        for(int i = 0; i < sizeCp; i++){
+            if(i == 0) //To count gap size for dashes
+                gapCount += digitCount(sortedArr[i]);
+            else if(i < size-1 && i != sizeCp-1)
+                gapCount += digitCount(sortedArr[i])+1;
+
+            if(i == sizeCp-1){
+                printf("%d\n",sortedArr[i]);
+                insertArrows(0,gapCount-1);
+                gapCount = 0;
+            }else
+                printf("%d ",sortedArr[i]);
+        }
+    }
     return sortedArr;
 }
 
@@ -150,7 +165,7 @@ void start(void){
         printf("2 for Heap Sort\n");
         printf("Any other number to EXIT.\n");
         printf("-------------------------\n\n");
-        printf("Type in the number of a sorting algorithm you want to use (e.g 2): ");
+        printf("Type in the number of a sorting algorithm you want to use (e.g. 2): ");
 
 
         input = getInt();
@@ -174,9 +189,7 @@ void start(void){
             printf("Good Bye!\n");
             break;
         }
-
     }
-
 }
 
 int getInt(){
