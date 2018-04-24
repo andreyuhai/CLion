@@ -1,3 +1,8 @@
+/*
+ * Burak KAYMAKCI
+ * 17060605
+ *
+ */
 #ifndef SELECTIONSORT_SORT_H
 #define SELECTIONSORT_SORT_H
 
